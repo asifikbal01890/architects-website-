@@ -48,6 +48,33 @@ nav div a {
 .brand-new div img {
    width: 100%;
 }
+/* quick-list section style */
+.quick-list{
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    margin-inline: 61px;
+    column-gap: 73px;
+}
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quick-list h2{
+    margin: 0px;
+    padding-bottom: 8px;
+}
+.quick-list-h2{
+    color: #727272;
+    font-weight: 500;
+}
+.quick-list-feature{
+    color: #FF900E;
+}
+.quick-list button{
+    margin-top: 16px;
+}
 
 /* Common Style */
 .max-w-1440 {
@@ -63,6 +90,10 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: 700;
+}
+p{
+    color: #727272;
+    line-height: 26px
 }
 
 .btn-primary {
@@ -89,7 +120,17 @@ h2 {
     .brand-new{
         margin-inline: 15px;
     }
-
+    /* quick-list section style */
+    .quick-list{
+        flex-direction: column;
+        margin-inline: 15px;
+    }
+    .quick-list-img{
+       grid-template-columns: 1fr;
+    }
+    .quick-list-img img{
+        width: 90vw;
+    }
     /* common style */
     h2 {
         text-align: center;
@@ -106,6 +147,14 @@ h2 {
     nav div {
         margin-inline: auto;
     }
+    /* quick-list section style */
+    .quick-list{
+        flex-direction: column;
+        margin-inline: 15px;
+    }
+    .quick-list-img img{
+        width: 100%;
+    }
 
     /* common style */
     h2 {
@@ -117,5 +166,9 @@ h2 {
 @media screen and (min-width: 768px) and (max-width: 992px) {
     nav div {
         width: 50%;
+    }
+     /* quick-list section style */
+     .quick-list{
+        flex-direction: column;
     }
 }
