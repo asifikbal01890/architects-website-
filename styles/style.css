@@ -137,6 +137,23 @@ nav div a {
     font-size: 20px;
     margin: 0;
 }
+.box{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.box div{
+    text-align: center;
+}
+.box h2, .box h3{
+    margin-block: 0;
+}
+
 
 /* Common Style */
 .max-w-1440 {
